@@ -35,7 +35,9 @@ class Solution:
         for digit in sorted(output.keys()):
             res += digit * output[digit]
         return res
-s = "owoztneoer"
+s = "oeisowufxrzohgiettr"
+solve=Solution()
+print(solve.originalDigits(s))
 # Output: "012"
 
 
